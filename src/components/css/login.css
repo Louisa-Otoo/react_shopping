@@ -1,0 +1,103 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background .login-container {
+    padding: 2rem;
+    box-shadow: 0px 0px 5rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 77vh;
+    border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background: rgb(227, 213, 240);
+    width: 30rem;
+}
+
+.background .login-container .title {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: rgb(71, 70, 70);
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 1.2rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.background .login-container .btn {
+    width: 50%;
+    padding: 0.5rem;
+    background: linear-gradient(to right, rgb(233, 185, 193), rgb(160, 119, 198));
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: left;
+}
+
+.background .login-container .btn:hover {
+    color: black;
+}
+
+.background .login-container .btn:active {
+    transform: translateY(1.5px);
+}
+
+.background .login-container .forgot {
+    color: gray;
+}
+
+.background .login-container .login-options {
+    margin-top: 1.5rem;
+    color: rgb(58, 56, 56);
+}
+
+.background .login-container .google-button {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+    mix-blend-mode: darken;
+}
+
+.background .login-container .link {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    color: gray;
+}
+
+
+@media screen and (min-width: 600px) {
+    .login-container {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 756px) {
+    .login-container {
+        width: 40%;
+    }
+}

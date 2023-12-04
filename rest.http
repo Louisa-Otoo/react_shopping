@@ -1,0 +1,75 @@
+###
+POST https://remote-app-api-c4a491abd7bc.herokuapp.com/api/login
+content-type: application/json
+
+{
+    "email": "chloe@mail.com",
+    "password": "admin1234"
+}
+
+###
+GET https://remote-app-api-c4a491abd7bc.herokuapp.com/api/products
+
+
+###
+POST 'https://remote-app-api-c4a491abd7bc.herokuapp.com/api/login
+content-type: application/json
+
+{
+    "email": "amdmin@mail.com",
+    "password": "admin1234"
+}
+
+
+### post product
+POST https://remote-app-api-c4a491abd7bc.herokuapp.com/api/add-to-cart
+Content-Type: application/json
+
+{
+    "user_id": 4,
+    "product_id": 5
+}
+
+
+###
+GET https://remote-app-api-c4a491abd7bc.herokuapp.com/api/getCartwithUserId/5 
+
+
+###
+POST https://remote-app-api-c4a491abd7bc.herokuapp.com/api/add-to-cart
+Content-Type: application/json
+
+{
+    "user_id": 4,
+    "product_id": 5
+}
+
+
+###
+DELETE https://remote-app-api-c4a491abd7bc.herokuapp.com/api/deleteCartItem/2/5  
+
+
+###
+GET https://remote-app-api-c4a491abd7bc.herokuapp.com/api/getCartwithUserId/4
+
+
+
+###
+POST https://remote-app-api-c4a491abd7bc.herokuapp.com/api/deleteCartItem/6/4
+Content-Type: application/json
+
+{
+    "user_id": 4,
+    "product_id": 9
+}
+
+###
+POST https://remote-app-api-c4a491abd7bc.herokuapp.com/api/deleteCartItem/
+Content-Type: application/json
+
+{
+    "user_id": 4,
+    "product_id": 9
+}
+
+            
